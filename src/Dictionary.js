@@ -8,8 +8,6 @@ export default function Dictionary() {
   let [definition, setDefinition] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data);
-    console.log(response.data[0].meanings[0].definitions[0].definition);
     setDefinition(response.data[0]);
   }
   function search(event) {
@@ -22,11 +20,11 @@ export default function Dictionary() {
     setKeyword(event.target.value);
   }
   return (
-    <div>
+    <div className="wordSearch">
       <form onSubmit={search}>
         <input
           type="search"
-          placeholder="search a word.."
+          placeholder="Search a word"
           autoFocus="on"
           autoComplete="off"
           onChange={handleKeywordChange}
