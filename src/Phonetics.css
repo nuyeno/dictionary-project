@@ -1,0 +1,21 @@
+a, span {
+    font-size: 22px;
+    color: #5C4B53;
+    margin-bottom: 10px;
+}
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: all 150ms ease-in-out;
+}
+a:hover {
+    color: white;
+    background-color: #5C4B53;
+}
+span {
+    
+    opacity: 0.7;
+}
