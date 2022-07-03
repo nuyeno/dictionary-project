@@ -1,5 +1,17 @@
-.Dictionary section {
+section {
+  font-family: "Montserrat", sans-serif;
   background: white;
-  padding: 20px;
+  padding: 8px;
   border-radius: 15px;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 30%);
+  margin: 15px 10px;
+  opacity: 0.85;
+}
+
+.wordSearch {
+  text-align: center;
+}
+
+p {
+  font-size: 24px;
 }

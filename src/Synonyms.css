@@ -1,0 +1,9 @@
+.synonyms {
+  margin: 15px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+li {
+  display: inline-block;
+  padding-right: 25px;
+}
