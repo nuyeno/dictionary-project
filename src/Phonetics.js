@@ -4,7 +4,12 @@ import "./Phonetics.css";
 export default function Phonetics(props) {
   return (
     <div className="phonetics">
-      <a href={props.phonetics.audio} target="_blank" rel="noreferrer">
+      <a
+        href={props.phonetics.audio}
+        target="_blank"
+        rel="noreferrer"
+        className="play-phonetics"
+      >
         Listen
         <i className="fa-regular fa-circle-play"></i>
       </a>
