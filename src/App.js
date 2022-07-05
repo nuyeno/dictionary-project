@@ -1,5 +1,5 @@
-import './App.css';
-import Dictionary from './Dictionary';
+import "./App.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
@@ -9,7 +9,15 @@ function App() {
           <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer>
-          Coded by Naomi Uyeno
+          <a
+            href="https://github.com/nuyeno/dictionary-project"
+            className="footer-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Coded
+          </a>{" "}
+          by Naomi Uyeno
         </footer>
       </div>
     </div>
